@@ -1,0 +1,9 @@
+.imagenes {
+    display: flex;
+    padding: 9px;
+    width: 1000px;
+    height: 200px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
