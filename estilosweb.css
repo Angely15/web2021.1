@@ -4,6 +4,6 @@
     width: 1000px;
     height: 200px;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-content: center;
 }
