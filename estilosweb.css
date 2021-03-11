@@ -6,4 +6,5 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: space-between;
+    text-align: center;
 }
