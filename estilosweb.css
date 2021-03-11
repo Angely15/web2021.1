@@ -1,6 +1,5 @@
 .imagen {
     display: flex;
-    padding: 9px;
     width: 1000px;
     height: 200px;
     flex-flow: row wrap;
