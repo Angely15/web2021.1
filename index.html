@@ -123,32 +123,22 @@
         <audio src="audio/linkin.mp3" controls="" loop=""></audio>
 
         </audio>
-        <h3>contacto:</h3>
-        <form action="http://app.unisimoncucuta.edu.co/mail/send.php" method="POST">
+        <!-- modify this form HTML and place wherever you want your form -->
 
-            <label for="usuario">Ingrese su nombre</label>
-            <input class="" style="" type="text" placeholder="Digite su nombre " maxlength="50" name="usuario" id="usuario">
-            <br>
+        <form action="https://formspree.io/f/xpzovjdk" method="POST">
+            <label>
+  Your email:
+  <input type="email" name="_replyto">
+</label>
+            <label>
+  Your message:
+  <textarea name="message"></textarea>
+</label>
 
+            <!-- your other form fields go here -->
 
-            <label for="subject">Asunto:</label>
-            <input class="" style="" type="text" placeholder="Digite su nombre " maxlength="50" name="subject" id="subject">
-            <br>
-
-            <label for="email">Ingrese su email</label>
-            <imput class="" style="" type="email" placeholder="Digite su email" maxlength="50" name="email" id="email">
-                </textarea>
-
-
-                <label for="message">Ingrese su mensaje</label>
-                <textarea class="" id="message" name="message"></textarea>
-                <br>
-                <hr>
-
-                <input class="" type="submit" name="submit">
-                <button>cancelar</button>
+            <button type="submit">Send</button>
         </form>
-
 
 </body>
 
