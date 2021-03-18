@@ -6,3 +6,29 @@
     flex-flow: row wrap;
     justify-content: space-between;
 }
+
+.Contactanos {
+    background-color: rgb(241, 159, 65);
+    color: rgb(7, 4, 4);
+}
+
+.contenido {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(39, 24, 1);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center
+}
+
+.fotopersonal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(224, 95, 9) 5px solid;
+}
+
+.fuente {
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
